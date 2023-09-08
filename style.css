@@ -1,0 +1,331 @@
+.phoneBorder {
+  display: flex;
+  width: 390px;
+  height: 820px;
+  padding: 14px 17px 33px 18px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  margin: auto;
+}
+
+p {
+  font-family: Inter;
+}
+
+#location {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: 170px;
+  margin: 0;
+}
+
+.currWeather {
+  position: absolute;
+  top: 188px;
+  display: flex;
+  align-items: center;
+  height: 52px;
+}
+
+#currTemp {
+  flex-shrink: 0;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#currIcon {
+  width: 42px;
+  height: 42px;
+  padding: 5px 0 0 0;
+}
+
+.rings {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 315px;
+  height: 307.05px;
+  top: 50px;
+}
+
+#airQuality {
+  position: absolute;
+}
+
+#precipitation {
+  position: absolute;
+}
+
+#temperature {
+  position: absolute;
+}
+
+.ringIcons {
+  position: absolute;
+  top: 51px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.timeIndicators {
+  position: absolute;
+  top: 25px;
+  width: 355px;
+  height: 357px;
+  justify-content: center;
+  align-content: center;
+
+  .time {
+    color: #d9d9d9;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    margin-block: 0;
+  }
+}
+
+#timeIndicatorsVertical {
+  position: absolute;
+  left: 170px;
+  height: 357px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#timeIndicatorsHorizontal {
+  position: absolute;
+  top: 170px;
+  width: 355px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#currTimeIndicator {
+  position: absolute;
+  top: 73px;
+  right: 30px;
+  transform: rotate(57deg);
+}
+
+#timeSelector {
+  position: absolute;
+  top: 68px;
+  right: 26.5px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  width: 310px;
+  height: 440px;
+  gap: 15px;
+  position: absolute;
+  top: 400px;
+}
+
+.card {
+  width: 310px;
+}
+
+.header {
+  width: 310px;
+  height: 34px;
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.content {
+  width: 310px;
+  height: 86px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.headerText {
+  left: 10px;
+  top: 6px;
+  position: relative;
+  color: black;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 700;
+  margin-block: 0;
+}
+
+#temperatureCard {
+  height: 118.51px;
+
+  .contentBody {
+    width: 233px;
+    height: 32.92px;
+    left: 14px;
+    top: 25px;
+    position: relative;
+
+    #arrow {
+      position: relative;
+      top: 2px;
+      left: 46px;
+    }
+
+    #temperatureIconText {
+      width: 47px;
+      height: 22.57px;
+      left: 0px;
+      top: 7.52px;
+      position: absolute;
+      color: #0075e1;
+      font-size: 20px;
+      font-family: Inter;
+      font-weight: 600;
+      word-wrap: break-word;
+      margin-block: 0;
+    }
+
+    .mainBodyText {
+      width: 151px;
+      height: 31.98px;
+      left: 82px;
+      top: 0px;
+      position: absolute;
+      color: black;
+      font-size: 28px;
+      font-family: Inter;
+      font-weight: 600;
+      word-wrap: break-word;
+      margin-block: 0;
+    }
+  }
+}
+
+#airQualityCard {
+  height: 184px;
+
+  .content {
+    height: 150px;
+  }
+
+  .contentBody {
+    width: 271px;
+    height: 124px;
+    left: 18px;
+    top: 12px;
+    position: relative;
+  }
+
+  .detailText {
+    width: 271px;
+    left: 0px;
+    top: 64px;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-block: 0;
+  }
+
+  .mainBodyText {
+    width: 193px;
+    height: 45.15px;
+    left: 78px;
+    top: 4.44px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-block: 0;
+  }
+}
+
+#aqiIcon {
+  width: 60px;
+  height: 54.47px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #ffb22b;
+  border-radius: 10px;
+}
+
+#aqiReading {
+  width: 36.39px;
+  left: 12px;
+  top: 4px;
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-block: 0;
+}
+
+#precipitationCard {
+  height: 118.51px;
+
+  .contentBody {
+    width: 254px;
+    height: 63.02px;
+    left: 25px;
+    top: 8px;
+    position: relative;
+  }
+
+  .mainBodyText {
+    left: 71px;
+    top: 20.99px;
+    position: absolute;
+    color: black;
+    font-size: 26px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-block: 0;
+  }
+
+  #precipitationIconText {
+    width: 46px;
+    height: 16.93px;
+    left: 0px;
+    top: 50px;
+    position: absolute;
+    color: #7d7d7d;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-block: 0;
+  }
+
+  #precipitationIcon {
+    width: 45.07px;
+    height: 41.76px;
+    left: 0px;
+    top: 5px;
+    position: absolute;
+  }
+}

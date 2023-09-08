@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>A1</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="phoneBorder">
+        <p id="location">PHILADELPHIA</p>
+        <div class="currWeather">
+          <p id="currTemp">89&deg;</p>
+          <img id="currIcon" src="assets\sun with rays.svg" />
+        </div>
+        <div class="rings">
+          <img
+            id="airQuality"
+            src="assets/air quality.png"
+            width="192.92px"
+            height="192.31px"
+          />
+          <img
+            id="precipitation"
+            src="assets/precipitation.png"
+            width="256.14px"
+            height="248.98px"
+          />
+          <img
+            id="temperature"
+            src="assets/temperature.png"
+            width="315px"
+            height="307.05px"
+          />
+        </div>
+        <div class="ringIcons">
+          <img src="assets/thermometer.svg" height="16px" />
+          <img src="assets/droplet.svg" height="16px" />
+          <img src="assets/face with medical mask.svg" height="16px" />
+        </div>
+        <div class="timeIndicators">
+          <div id="timeIndicatorsVertical">
+            <p class="time" id="twelve">12</p>
+            <p class="time" id="six">6</p>
+          </div>
+          <div id="timeIndicatorsHorizontal">
+            <p class="time" id="three">3</p>
+            <p class="time" id="nine">9</p>
+          </div>
+          <p class="time" id="currTimeIndicator">I</p>
+          <img id="timeSelector" src="assets/time selector.svg" />
+        </div>
+        <div class="cards">
+          <div class="card" id="airQualityCard">
+            <div class="header">
+              <p class="headerText">POOR AIR QUALITY</p>
+            </div>
+            <div class="content">
+              <div class="contentBody">
+                <p class="detailText">
+                  LIMIT TIME AND INTENSITY OF OUTSIDE ACTIVITIES. WATCH FOR
+                  SYMPTOMS SUCH AS COUGHING OR DIFFICULTY BREATHING AND TAKE
+                  ACTION AS NEEDED.
+                </p>
+                <p class="mainBodyText">UNHEALTHY FOR <br />SENSITIVE GROUPS</p>
+                <div id="aqiIcon">
+                  <p id="aqiReading">102<br />AQI</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" id="temperatureCard">
+            <div class="header">
+              <p class="headerText">DROPPING TEMPERATURES</p>
+            </div>
+            <div class="content">
+              <div class="contentBody">
+                <p class="mainBodyText">65° @ 7PM</p>
+                <img id="arrow" src="assets/arrow.svg" />
+                <p id="temperatureIconText">-24°</p>
+              </div>
+            </div>
+          </div>
+          <div class="card" id="precipitationCard">
+            <div class="header">
+              <p class="headerText">UPCOMING PRECIPITATION</p>
+            </div>
+            <div class="content">
+              <div class="contentBody">
+                <p class="mainBodyText">UNTIL 6:30PM</p>
+                <p id="precipitationIconText">LIGHT</p>
+                <img id="precipitationIcon" src="assets/cloud with rain.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
